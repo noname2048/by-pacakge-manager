@@ -1,23 +1,35 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/lodash': ^4.14.188
   dayjs: ^1.11.6
+  lodash: ^4.17.21
   moment: ^2.29.4
   prettier: ^2.7.1
   typescript: ^4.8.4
 
 dependencies:
   dayjs: 1.11.6
+  lodash: 4.17.21
   moment: 2.29.4
   prettier: 2.7.1
 
 devDependencies:
+  '@types/lodash': 4.14.188
   typescript: 4.8.4
 
 packages:
 
+  /@types/lodash/4.14.188:
+    resolution: {integrity: sha512-zmEmF5OIM3rb7SbLCFYoQhO4dGt2FRM9AMkxvA3LaADOF1n8in/zGJlWji9fmafLoNyz+FoL6FE0SLtGIArD7w==}
+    dev: true
+
   /dayjs/1.11.6:
     resolution: {integrity: sha512-zZbY5giJAinCG+7AGaw0wIhNZ6J8AhWuSXKvuc1KAyMiRsvGQWqh4L+MomvhdAYjN+lqvVCMq1I41e3YHvXkyQ==}
+    dev: false
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
   /moment/2.29.4:
