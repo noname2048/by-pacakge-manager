@@ -11,4 +11,5 @@ button.addEventListener("click", buttonOnClickHandler);
 interface some {
     id: number
     name: string
-};
+    ids: number[] | undefined
+}
