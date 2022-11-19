@@ -13,3 +13,11 @@ interface some {
     name: string
     ids: number[] | undefined
 }
+
+type GreetFunction = (a: string) => void;
+function greeter(fn: (a: string)=> void){
+    fn("hello world");
+};
+function greeting(fn: GreetFunction) {
+    fn("Hello world" );
+}
