@@ -21,3 +21,6 @@ function greeter(fn: (a: string)=> void){
 function greeting(fn: GreetFunction) {
     fn("Hello world" );
 }
+function greet(person: { name: string, age: number}) {
+    return "Hello" + person.name;
+}
