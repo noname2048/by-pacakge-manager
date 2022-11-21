@@ -24,3 +24,8 @@ function greeting(fn: GreetFunction) {
 function greet(person: { name: string, age: number}) {
     return "Hello" + person.name;
 }
+
+class Point {
+    x: number;
+    y: number;
+}
