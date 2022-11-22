@@ -28,4 +28,5 @@ function greet(person: { name: string, age: number}) {
 class Point {
     x: number;
     y: number;
+    z: boolean;
 }
