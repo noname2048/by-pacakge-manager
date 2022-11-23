@@ -30,3 +30,7 @@ class Point {
     y: number;
     z: boolean;
 }
+
+function identity<Type>(arg: Type): Type {
+    return arg;
+}
