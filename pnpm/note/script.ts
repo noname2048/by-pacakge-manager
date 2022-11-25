@@ -18,10 +18,10 @@ type GreetFunction = (a: string) => void;
 function greeter(fn: (a: string)=> void){
     fn("hello world");
 };
-function greeting(fn: GreetFunction) {
+function greeting(fn: GreetFunction): void {
     fn("Hello world" );
 }
-function greet(person: { name: string, age: number}) {
+function greet(person: { name: string, age: number}): string {
     return "Hello" + person.name;
 }
 
