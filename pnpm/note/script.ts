@@ -15,7 +15,7 @@ interface some {
 }
 
 type GreetFunction = (a: string) => void;
-function greeter(fn: (a: string)=> void){
+function greeter(fn: (a: string) => void){
     fn("hello world");
 };
 function greeting(fn: GreetFunction): void {
